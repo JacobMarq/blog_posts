@@ -9,8 +9,6 @@ default: &default
   encoding: unicode
   database: HatchwaysBlogPosts_development
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: jacob
-  password:
   timeout: 5000
 
 development:
