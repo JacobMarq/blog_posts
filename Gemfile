@@ -13,6 +13,9 @@ gem 'faker'
 gem 'rest-client'
 gem 'devise'
 gem 'rack-cors'
+gem 'whenever'
+# gem 'promise.rb'
+# gem 'concurrent'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'

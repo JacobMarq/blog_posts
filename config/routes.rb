@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
-  namespace :api, defaults: { format: 'json' } do
+  namespace :v1, defaults: { format: 'json' } do
     get '/posts', to: "posts#get_posts"
 
     get '/ping', to: "ping#ping_api"

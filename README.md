@@ -7,7 +7,12 @@ Things you may want to cover:
 
 * Ruby version
 
+Rails - 6.1.4
+Ruby - 2.7.2
+
 * System dependencies
+
+
 
 * Configuration
 
@@ -15,10 +20,14 @@ Things you may want to cover:
 
 * Database initialization
 
-* How to run the test suite
+MULTITHREADING
 
-* Services (job queues, cache servers, search engines, etc.)
+In order to allow for Parallel api requests,
+I utilized the Thread object for multithreading.
 
-* Deployment instructions
+TESTING
 
-* ...
+testing is done with Rspec. contained in the test directory.
+
+-Linux
+To run the test suite simply run 'rspec' in the command line from the root directory.
